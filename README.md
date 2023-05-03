@@ -28,6 +28,19 @@ weighted avg       0.92      0.92      0.92       513
 
 Number of mislabeled points out of a total 513 points : 40
 train_size=0.10,test_size=0.90
+
+Naive Bayes:
+              precision    recall  f1-score   support
+
+           0       0.99      0.94      0.97       121
+           1       0.90      0.99      0.94        67
+
+    accuracy                           0.96       188
+   macro avg       0.95      0.96      0.95       188
+weighted avg       0.96      0.96      0.96       188
+
+Number of mislabeled points out of a total 188 points : 8
+test_size=0.33
 ```
 
 ## Notebooks
