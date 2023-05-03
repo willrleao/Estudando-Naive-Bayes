@@ -2,6 +2,21 @@
 
 Este repositório contém notebooks e scripts com exemplos de como utilizar o algoritmo de classificação Naive Bayes em problemas de aprendizado de máquina.
 
+´´´´
+Naive Bayes BernoulliNB:
+              precision    recall  f1-score   support
+
+           0       0.99      0.95      0.97       148
+           1       0.91      0.97      0.94        80
+
+    accuracy                           0.96       228
+   macro avg       0.95      0.96      0.95       228
+weighted avg       0.96      0.96      0.96       228
+
+Number of mislabeled points out of a total 228 points : 10
+train_size=0.60,test_size=0.40
+´´´
+
 ## Notebooks
 
 - `exemplo_naive_bayes.ipynb`: exemplo básico de como utilizar o Naive Bayes com dados sintéticos.
