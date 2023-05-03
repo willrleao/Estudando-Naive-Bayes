@@ -1,26 +1,33 @@
-Estudando Naive Bayes
-Este repositório é destinado ao estudo do algoritmo de classificação Naive Bayes. O Naive Bayes é um método probabilístico que utiliza o teorema de Bayes para classificar um objeto em uma das categorias pré-definidas, com base em um conjunto de características.
+# Estudando Naive Bayes
 
-Estrutura do Repositório
-O diretório datasets contém os arquivos csv utilizados como exemplo durante o estudo.
-O diretório notebooks contém os Jupyter Notebooks com os exemplos práticos e a teoria do algoritmo.
-O diretório scripts contém os scripts em Python que foram desenvolvidos durante o estudo.
-O arquivo LICENSE contém a licença de uso do código fonte.
-Tecnologias Utilizadas
-Python 3.x
-Jupyter Notebook
-Bibliotecas Utilizadas
-pandas
-numpy
-scikit-learn
-Execução dos Notebooks
-Para executar os Jupyter Notebooks é necessário ter o Jupyter instalado. Caso você não tenha o Jupyter instalado, siga os passos abaixo:
+Este repositório contém notebooks e scripts com exemplos de como utilizar o algoritmo de classificação Naive Bayes em problemas de aprendizado de máquina.
 
-Abra o terminal.
-Instale o Jupyter Notebook com o comando: pip install jupyter.
-Navegue até o diretório notebooks.
-Execute o comando jupyter notebook.
-Uma nova aba será aberta em seu navegador, mostrando os arquivos do diretório. Clique no notebook que deseja executar.
-Referências
-Documentação Oficial do Scikit-learn
-Introdução ao Naive Bayes com Python
+## Notebooks
+
+- `exemplo_naive_bayes.ipynb`: exemplo básico de como utilizar o Naive Bayes com dados sintéticos.
+
+## Scripts
+
+- `naive_bayes.py`: implementação do algoritmo Naive Bayes.
+- `utils.py`: funções auxiliares para pré-processamento dos dados.
+
+## Requisitos
+
+- Python 3.x
+- Pandas
+- Scikit-learn
+
+## Como utilizar
+
+Para executar o exemplo do notebook, basta executar o seguinte comando:
+
+
+Para utilizar a implementação do algoritmo Naive Bayes em seu próprio projeto, basta importar o arquivo `naive_bayes.py` e utilizar a classe `NaiveBayes`.
+
+## Contribuição
+
+Contribuições são sempre bem-vindas! Caso tenha encontrado algum bug ou tenha uma sugestão de melhoria, por favor, abra uma issue ou submeta uma pull request.
+
+## Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
