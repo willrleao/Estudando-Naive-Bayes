@@ -5,7 +5,6 @@ Este repositório contém notebooks e scripts com exemplos de como utilizar o al
 
 `Naive Bayes BernoulliNB:`
 ```
-  Naive Bayes:
                 precision    recall  f1-score   support
 
              0       0.99      0.95      0.97       148
