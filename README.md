@@ -4,19 +4,21 @@ Este repositório contém notebooks e scripts com exemplos de como utilizar o al
 
 
 `Naive Bayes BernoulliNB:`
-`
-              precision    recall  f1-score   support
+```
+  Naive Bayes:
+                precision    recall  f1-score   support
 
-           0       0.99      0.95      0.97       148
-           1       0.91      0.97      0.94        80
+             0       0.99      0.95      0.97       148
+             1       0.91      0.97      0.94        80
 
-    accuracy                           0.96       228
-   macro avg       0.95      0.96      0.95       228
-weighted avg       0.96      0.96      0.96       228
+      accuracy                           0.96       228
+     macro avg       0.95      0.96      0.95       228
+  weighted avg       0.96      0.96      0.96       228
 
-Number of mislabeled points out of a total 228 points : 10
-train_size=0.60,test_size=0.40
-`
+  Number of mislabeled points out of a total 228 points : 10
+  train_size=0.60,test_size=0.40
+
+```
 
 ## Notebooks
 
