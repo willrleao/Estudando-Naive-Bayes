@@ -2,8 +2,9 @@
 
 Este repositório contém notebooks e scripts com exemplos de como utilizar o algoritmo de classificação Naive Bayes em problemas de aprendizado de máquina.
 
+
+`Naive Bayes BernoulliNB:`
 ´´´
-#Naive Bayes BernoulliNB:
               precision    recall  f1-score   support
 
            0       0.99      0.95      0.97       148
