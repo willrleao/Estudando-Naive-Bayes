@@ -16,7 +16,18 @@ Este repositório contém notebooks e scripts com exemplos de como utilizar o al
 
   Number of mislabeled points out of a total 228 points : 10
   train_size=0.60,test_size=0.40
+  
+              precision    recall  f1-score   support
 
+           0       0.92      0.96      0.94       320
+           1       0.93      0.85      0.89       193
+
+    accuracy                           0.92       513
+   macro avg       0.92      0.91      0.92       513
+weighted avg       0.92      0.92      0.92       513
+
+Number of mislabeled points out of a total 513 points : 40
+train_size=0.10,test_size=0.90
 ```
 
 ## Notebooks
